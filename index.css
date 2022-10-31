@@ -1,0 +1,481 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+   
+body{    
+    align-items: center;
+    height: 100vh;
+}
+
+.cabeçalho{
+   background-color: #757575;
+   display: inline-grid;
+   grid-template-columns: 1fr 1fr;
+   width: 1919px;
+   height: 100px;
+   
+}
+.avatar{
+   grid-column: 1 / 2; 
+   color: #757575;
+   height: 96px;
+   width: 96px;
+   border-radius:50%;
+   align-items: center;
+   margin-left: 500px ;
+ }
+
+.avatar_imagem{
+    object-fit:fill;
+    border-radius: 50%;
+    max-width: 100px;
+    max-height: 100px;
+    
+}
+
+.menu{
+   justify-content: space-around;
+   display: flex;
+   align-items: center;
+
+}
+
+a{
+    text-decoration: underline;
+    color: #FFFFFF;
+
+}
+
+.imagem-2{
+    display: inline-grid;   
+    width: 1919px;  
+    height: 500px; 
+    margin: 1919px 377px 0,9px 1px;
+     
+}
+
+.avatar_2{
+    color: #757575;
+    height: 300px;
+    width: 300px;
+    border-radius:100%;
+    align-items: center;
+    margin-left: 500px ;
+  }
+
+.avatar_imagem2{
+    object-fit:fill;
+    border-radius: 100%;
+    max-width: 350px;
+    max-height: 350px;
+    
+}
+.nome{
+    font-family: Segoe UI, Bold;
+    text-align: left;
+    margin: 0px 0px 0px 848px;
+    display: block;
+    font-size: 55px ;
+    left: 848px;
+    width: 422px;
+    height: 73px;
+    font: normal normal bold 55px/73px Segoe UI;
+    letter-spacing: 0px;
+    color: #707070;
+    opacity: 1;
+    font-weight: bold;
+}
+
+.nome_secundario{
+    font-family: Segoe UI, Light Italic;
+    text-align: left;
+    margin: 10px 0px 0px 848px;
+    display: block;
+    font-size: 34px ;
+    top: 0px;
+    left: 848px;
+    width: 422px;
+    height: 20px;
+    font: italic normal 300 34px/46px Segoe UI;
+    letter-spacing: 0px;
+    color: #707070;
+    opacity: 1; 
+}
+
+.SobreMim{
+    font-family: Segoe UI, Bold;
+    text-align: left;
+    margin: 65px 533px 0px 848px;
+    display: block;
+    font-size: 34px ;
+    top: 380px;
+    left: 848px;
+    width: 422px;
+    height: 73px;
+    font: normal normal bold 55px/73px Segoe UI;
+    letter-spacing: 0px;
+    color: #707070;
+    opacity: 1;
+}
+
+.descripção{
+    font-family: 'Segoe UI', 'semibold';
+    margin: 10px 533px 46px 848px;
+    font-size: 28px;
+    left: 848px;
+    width: 518px;
+    line-height: 21px;
+    text-align: justify;
+    font: normal normal 600 21px/34px Segoe UI;
+    letter-spacing: 1px;
+    color: #707070;
+    letter-spacing: 1px;
+    text-justify: auto;
+}
+
+.trabalho{
+    background-color: #DEDEDE;
+    width: 1919px;
+    height: 300px; 
+    left: 1px;
+    top: 939px;
+}
+
+.trabalho h2{
+    font-family: Segoe UI, Light;
+    font-size: 55;
+    color: #707070; 
+    margin: 0px 0px 0px 553px; 
+    font: normal normal 300 55px/73px Segoe UI;     
+    
+}
+
+.trabalho h3{
+    font-family: Segoe UI, Bold;
+    font-size: 21px;
+    color: #707070;
+    margin: 0px 0px 0px 581px; 
+    font: normal normal bold 21px/34px Segoe UI;  
+}
+
+.trabalho h4{
+   font-family: Segoe UI, Semibold;
+   font-size: 13px;
+    color: #707070;
+    margin: 0px 0px 0px 581px;
+    font: normal normal 600 13px/34px Segoe UI;   
+}
+
+.Formação{
+    background-color: #434343;
+    width: 1919px;
+    height: 200px; 
+    left: 1px;
+    top: 100px;
+} 
+
+.Formação h2{
+    font-family: Segoe UI, Light;
+    font-size: 55px;
+    color: #999999;
+    margin: 0px 0px 10px 581px; 
+    font: normal normal 300 55px/73px Segoe UI;
+}
+
+.Formação h3{
+    color: #999999;
+    margin: 0px 0px 10px 581px;
+    font: normal normal bold 21px/34px Segoe UI; 
+}
+
+.Formação h4{
+    color:  #999999;
+    margin: 0px 0px 10px 581px; 
+    font: normal normal 600 13px/34px Segoe UI;
+}
+.Cursos{
+    background-color: #DEDEDE;
+    width: 1919px;
+    height: 380px; 
+    left: 1px;
+    top: 100px;
+    font-family: Segoe UI, Light
+}
+
+.Cursos h2{
+    font-size: 55px;
+    color: #999999;
+    margin: 0px 0px 10px 581px;
+    font-family: Segoe UI, Light;
+    font: normal normal 300 55px/73px Segoe UI;
+}
+
+.Cursos h3{
+    font-family: Segoe UI, Bold;
+    font-size: 21px;
+    color: #707070;
+    margin: 0px 0px 0px 581px; 
+    font: normal normal bold 21px/34px Segoe UI;  
+}
+
+.Cursos h4{
+    font-family: Segoe UI, Semibold;
+    font-size: 13px;
+    color: #707070;
+    margin: 0px 0px 0px 581px;
+    font: normal normal 600 13px/34px Segoe UI;   
+}
+.Projetos{
+    width: 1919px;
+    height: 580px; 
+    left: 1px;
+    top: 100px;
+    font-family: Segoe UI, Light;
+    background-color: #434343;
+    margin: 0px 35px 0px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+.titulo{
+    margin-top: -10px;
+    justify-content: center;
+    font: normal normal 300 55px/73px Segoe UI;
+   color: #999999;
+}
+
+.container{
+    width: 1200px;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.container .card{
+    position: relative;
+    padding: 10px;
+    width: 300px;
+    background-color: #a7a6a6;
+    margin: 20px;
+    border: 1px solid black;
+    border-radius: 20px;
+    overflow: hidden;
+    transition: 0.5s;
+    text-align: center;
+}
+.container .card img{
+    transition: 0.5s;
+}
+
+.container .card h2{
+    font-size: 2rem;
+}
+
+.container .card .content{
+    padding: 20px;
+    text-align: center;
+}
+
+.container .card .content p{
+    color: rgb(27, 26, 26);
+    transition: 0.5s;
+}
+
+.container .card .content a{
+    position: relative;
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: black;
+    color: #fff;
+    border-radius: 40px;
+    text-decoration: none;
+    transition: 0.5s;
+    outline: none;
+    margin-top: 20px;
+}
+
+.container .card:hover .content a{
+    color: black;
+    background-color: #FFFFFF;
+} 
+
+/*footer*/
+.formulario{
+    display: inline-flex;
+    grid-template-columns: 1fr 1fr;    
+    max-width: 1920px;
+    width: 100%;
+    background-color: #0a0a0a;
+    margin: 0 0px;
+    box-shadow: 0 5px 10px rgb(78, 77, 77) ;
+    min-height: 50vh;
+    column-gap: 10px;
+    row-gap: 50px;
+
+}
+
+.formulario .titulo2{        
+    font-size: 55px;
+    color: #999999;
+    margin: 0px 0px 10px 0px;
+    font-family: Segoe UI, Light;
+    font: normal normal 300 55px/73px Segoe UI;
+}
+
+.formulario .content p{
+    grid-column: 1 / 2; 
+    color: #FFFFFF;
+    font-family: Segoe UI, Semibold;
+    font-size: 30px;
+    margin:100px 100px 0px 0px;
+    flex-direction: left ;
+    text-align: left;
+    
+}
+
+.formulario .form{
+    grid-column: 2 / 2; 
+    width: 100px;
+    margin-right: 300px;   
+ 
+}
+
+.formulario .input-box{
+    height: 80px;
+    width: 280%;
+    margin: 50px 0;
+    position: relative;
+}
+
+.formulario .input-box input{
+    position: relative;
+    height: 100%;
+    width: 100%;
+    border-radius: 6px;
+    font-size: 16px;
+    outline: none;
+    padding-left: 16px;
+    background: #FFFFFF;
+    border: 3px solid transparent;
+    transition: 0.3s    
+}
+
+
+.formulario .input-box input:focus,
+.formulario .input-box input:valid{
+    border-color: #FFFFFF;
+    background-color: #FFFFFF;
+}
+
+.formulario .input-box label{
+    position: absolute;
+    left: 18px;
+    top: 50px;
+    color: black;
+    font-size: 30px;
+    pointer-events: nome;
+    transform: translateY(-20%);
+    transition:  0.3s;
+}
+
+.formulario .input-box input:focus ~ label,
+.formulario .input-box input:valid ~label{
+    top: 0;
+    left: 0px;
+    display: 50px;
+    color: antiquewhite;
+    background: #fff;
+
+}
+
+.formulario .message-box{
+    min-height: 200px;
+    width: 280%;
+    margin: 0px 0;
+    position: relative;
+    
+}
+
+.formulario .message-box textarea{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    resize: none;
+    background: #FFFFFF;
+    border: 2px solid transparent;
+    border-radius: 6px;
+    outline: none;
+    transition: 0.3s;
+}
+
+.formulario .message-box textarea:focus{
+    border-color: #434343;
+    background: rgb(243, 243, 245);
+}
+
+.formulario .message-box label{
+    position: absolute;
+    font-size: 30px;
+    color:black;
+    left: 18px;
+    top: 50px;
+    pointer-events: none;
+    transition:  0.3s;
+}
+
+.formulario .message-box textarea:focus ~ label{
+    left: 12px;
+    top: -10px;
+    color: #DEDEDE;   
+    font-size: 14px;
+    background: #999999;
+}
+
+.formulario .input-box input[ type="submit"]{
+    color: black;
+    background-color: rgb(70, 71, 71);
+    padding-left: 50px;
+    font-size: 18px;
+    font-weight: 20px;
+    cursor: pointer;
+    letter-spacing: 1px;
+    transition:  0.3s ;
+}
+
+.formulario .input-box input[ type="submit"]:hover{
+    background-color:gray
+}
+
+@media (max-width:1920px){
+    .content p{
+        padding: 10px 0px;
+    }
+}
+
+@media (max-width:1920px){
+    .formulario form{
+        width: 100%;
+        margin-left: 30px;
+    }
+}    
+.media{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+}
+.icone{
+    margin-top: 50px;
+}
+
+
+
+
+
+
+
+
+
